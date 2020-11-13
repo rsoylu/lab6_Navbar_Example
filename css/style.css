@@ -1,1 +1,84 @@
-skldfakfdj
+#main-navbar{
+ background-color: blue;
+ overflow: hidden;
+ position: relative; /*wher this gooo*/
+ 
+}
+#main-navbar ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+  left: 50%;
+  right: 50%;
+  
+}
+
+#main-navbar ul li{
+  float: left;
+  
+  
+}
+
+#main-navbar ul li a{
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  float: left; /*where does this second float go?*/
+  
+}
+
+
+#navbar-container{
+ width: 100%;
+ position: relative; /*wher this gooo*/
+ 
+}
+
+#navbar-container ul{
+ position: relative;
+ float: left;
+}
+
+#navbar-container ul li a:hover {
+  display: block;
+  text-decoration: underline overline;
+}
+
+#onpage{
+  background-color: #000;
+}
+
+#sidebar{
+  position: fixed;
+  background-color: red;
+  width: 20%;
+  height: 100%; 
+  right: 0%;
+}
+
+#sidebar ul{
+  list-style-type: none;
+  padding: 0;
+  
+}
+
+
+#sidebar ul li a{
+  display: block;
+  padding: 15px 0;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  
+}
+
+
+#sidebar ul li a:hover{
+  background-color: #000;
+}
+
+#sidebar-container{
+ 
+  
+}
